@@ -1,0 +1,85 @@
+# Config for Ulti-Homesys
+
+prefix: "&7[&cUlti-Home&7] "
+messages:
+  home_set: "&aHome '{name}' has been set!"
+  home_teleport: "&aTeleported to home '{name}'!"
+  home_limit_reached: "&cYou have reached the limit of {limit} homes."
+  home_not_found: "&cHome '{name}' does not exist."
+  no_homes_set: "&cYou have no homes set."
+  usage_sethome: "&cUsage: /sethome <name>"
+  usage_home: "&cUsage: /home <name>"
+  plugin_reloaded: "&aPlugin configuration reloaded."
+  plugin_updated: "&aPlugin successfully updated."
+  plugin_restart_required: "&cPlease restart the server for the changes to take effect."
+  plugin_update_failed: "&cUpdate failed."
+  version_display: "&7Current version: &a{version}"
+
+# GUI settings
+gui:
+  slots:
+    - 0
+    - 1
+    - 2
+    - 3
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+  block_design:
+    item: "ENDER_PEARL"
+    display_name: "&aHome"
+    lore:
+      - "Click to teleport"
+
+
+# You can use HEX codes &#FFFFFF
+
+# BY dalo2231
+# Support on Discord DM me dalo2231
+# German and English
+
+
+#-_-_-_-_-German-_-_-_-_-#
+
+
+#prefix: "&7[&cUlti-Home&7] "
+#messages:
+#  home_set: "&aHome '{name}' wurde gesetzt!"
+#  home_teleport: "&aTeleported zu home '{name}'!"
+#  home_limit_reached: "&cDu hast das Limit von {limit} Homes erreicht."
+#  home_not_found: "&cHome '{name}' existiert nicht."
+#  no_homes_set: "&cDu hast keine Homes gesetzt."
+#  usage_sethome: "&cVerwendung: /sethome <name>"
+#  usage_home: "&cVerwendung: /home <name>"
+#  plugin_reloaded: "&aPlugin-Konfiguration neu geladen."
+#  plugin_updated: "&aPlugin erfolgreich aktualisiert."
+#  plugin_restart_required: "&cBitte starte den Server neu, damit die Änderungen wirksam werden."
+#  plugin_update_failed: "&cUpdate fehlgeschlagen."
+#  version_display: "&7Aktuelle Version: &a{version}"
+
+# GUI-Einstellungen
+#gui:
+#  slots:
+#    - 0
+#    - 1
+#    - 2
+#    - 3
+#    - 4
+#    - 5
+#    - 6
+#    - 7
+#    - 8
+#  block_design:
+#    item: "ENDER_PEARL"
+#    display_name: "&aHome"
+#    lore:
+#      - "Klicke, um zu teleportieren"
+
+
+# Du kannst Hex Codes verwenden &#FFFFFF
+
+# Von dalo2231
+# Support auf discord schreib mir dalo2231
+# Deutsch und Englisch

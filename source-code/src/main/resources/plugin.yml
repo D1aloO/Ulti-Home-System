@@ -1,0 +1,40 @@
+name: Ulti-Homesys
+version: '1.0'
+main: at.dalo.homesys.Main
+api-version: '1.20'
+commands:
+  sethome:
+    description: Set your home location.
+    usage: /sethome <home_name>
+    permission: home.use
+  home:
+    description: Teleport to your home.
+    usage: /home <home_name>
+    permission: home.use
+  update:
+    description: Update the plugin.
+    usage: /update
+    permission: home.update
+  reloadplugin:
+    description: Reload the plugin configuration.
+    usage: /reloadplugin
+    permission: home.reloadplugin
+  homeversion:
+    description: Display the current version of the plugin.
+    usage: /homeversion
+    permission: home.homeversion
+permissions:
+  home.use:
+    default: true
+  home.limit.1:
+    default: true
+  home.limit.10:
+    default: op
+  home.limit.100:
+    default: op
+  home.reloadplugin:
+    default: op
+  home.update:
+    default: op
+  home.homeversion:
+    default: op
